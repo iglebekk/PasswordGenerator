@@ -2,7 +2,7 @@ import random
 import os
 import pyperclip
 
-chars = 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM!@#$%&'
+chars = '1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM!@#$%&'
 
 os.system('clear')
 print('Number of passwords?')
