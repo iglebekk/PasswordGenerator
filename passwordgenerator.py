@@ -17,8 +17,8 @@ print('Password length?')
 length = int(input('[20]') or '20')
 
 # Ask if special characters are needed. Defautl is no.
-print('Include special characters? [y/N]')
-if input().lower() == 'y':
+print('Include special characters? [y/n]')
+if input('[n]').lower() == 'y':
     add_special = True
 else:
     add_special = False
@@ -31,7 +31,7 @@ for p in range(number):
         length = length / 4
     else:
         length = length / 3
-        
+
     length = int(length)
     password = ''
     
